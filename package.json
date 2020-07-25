@@ -1,0 +1,18 @@
+{
+  "name": "dataproject-js-ipl-sharad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:mountblue/cohort-13-python/dataproject-js-ipl-sharad.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "highcharts": "^8.1.2"
+  }
+}
