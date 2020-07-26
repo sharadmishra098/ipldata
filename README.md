@@ -5,6 +5,7 @@ Analysis of IPL data using by plotting highcharts
 * HTML
 * Javascript
 * Highcharts
+* Python
   
 # Deployed link
 The project is deployed [here](https://ipl-js-project.herokuapp.com/home.html)
