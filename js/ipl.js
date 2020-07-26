@@ -52,7 +52,7 @@ function rcb_total() {
                         }
                     },
                     series: [{
-                        name: 'RCB Batsman',
+                        name: 'Runs Scored',
                         data: Object.values(data.ipl[1])
                     }]
                 });
@@ -85,7 +85,7 @@ function umpire() {
                         }
                     },
                     series: [{
-                        name: 'Country',
+                        name: 'No. of Umpires',
                         data: Object.values(data.ipl[2])
                     }]
                 });
