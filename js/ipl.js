@@ -1,6 +1,6 @@
 function total_runs() {
     document.addEventListener('DOMContentLoaded', function() {
-        fetch("data.json").then(resp => resp.json())
+        fetch("/js/data.json").then(resp => resp.json())
             .then(function(data) {
                 var chart = Highcharts.chart('teams', {
                     chart: {
@@ -32,7 +32,7 @@ total_runs()
 
 function rcb_total() {
     document.addEventListener('DOMContentLoaded', function() {
-        fetch("data.json")
+        fetch("/js/data.json")
             .then(resp => resp.json())
             .then(data => {
                 var myChart = Highcharts.chart('rcb', {
@@ -65,7 +65,7 @@ rcb_total()
 
 function umpire() {
     document.addEventListener('DOMContentLoaded', function() {
-        fetch("data.json")
+        fetch("/js/data.json")
             .then(resp => resp.json())
             .then(data => {
                 var myChart = Highcharts.chart('umpire', {
@@ -98,7 +98,7 @@ umpire()
 
 function season() {
     document.addEventListener('DOMContentLoaded', function() {
-        fetch("data.json")
+        fetch("/js/data.json")
             .then(resp => resp.json())
             .then(data => {
                 var teams = ['Gujarat Lions', 'Rising Pune Supergiant',
